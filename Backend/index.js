@@ -7,7 +7,7 @@ require('dotenv').config();
 const FormDataModel = require('./models/FormData');
 
 const corsOptions = {
-    origin: 'http://localhost:5173',  // Allow requests from localhost:5173
+    origin: 'https://truthguardianfrontend-g4ve.onrender.com',  // Allow requests from localhost:5173
     methods: ['GET', 'POST'],
 };
   

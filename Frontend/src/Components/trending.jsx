@@ -10,7 +10,7 @@ const Trending = () => {
   // Fetch trending claims data from the API
   useEffect(() => {
     axios
-      .get("http://localhost:5000/trending-claims")
+      .get("https://truthguardian.onrender.com/trending-claims")
       .then((response) => {
         setMisinformationItems(response.data); // Update state with API response data
         setLoading(false); // Set loading to false after data is fetched

@@ -153,7 +153,7 @@ async def get_trending_claims():
     url = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
     params = {
         "key": Config.FACT_API,
-        "query": "All",  # Try a specific query
+        "query": "India",  # Try a specific query
         "pageSize": 12,
         "languageCode": "en"
     }
